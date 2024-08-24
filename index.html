@@ -4,61 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GuitarStar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<header>
-    <div class="button">
-        <a class="logo" href="#">GS</a>
-    </div>
-    <div class="barra">
-        <nav>
-            <ul>
-                <li class="navegar-1"><a href="#">Inicio</a></li>
-                <li class="navegar-2"><a href="./pages/guitarras.html">Guitarras</a></li>
-                <li class="navegar-3"><a href="./pages/pedales.html">Pedales</a></li>
-                <li class="navegar-4"><a href="./pages/accesorios.html">Accesotios</a></li>
-                <li class="navegar-5"><a href="./pages/contactos.html">Contactos</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<main>
-    <div class="titulo">
-        <img src="./assets/" alt="guitarra_acustica">
-        <h1><span>G</span>uitar<span>S</span>tar</h1>
-        <img src="./assets/" alt="guitarra_electrica">
-    </div>
-    <p>envios a cualquier parte del mundo</p>
-    <p>Inicio</p>
-    <h2 class="destacados">productos destacados</h2>
-    <section>
-    </section>
-    <button><a href="#">ver mas</a></button>
-
-</main>
-<footer>
-    <div>
-        <h2>GS</h2>
-    </div>
-    <div class="barrafooter">
-        <nav>
-            <ul>
-                <li class="navegar-1"><a href="#">Inicio</a></li>
-                <li class="navegar-2"><a href="./pages/guitarras.html">Guitarras</a></li>
-                <li class="navegar-3"><a href="./pages/pedales.html">Pedales</a></li>
-                <li class="navegar-4"><a href="./pages/accesorios.html">Accesotios</a></li>
-                <li class="navegar-5"><a href="./pages/contactos.html">Contactos</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="logoRedes">
-        <a href="https://www.instagram.com/" target="_blank"><img src="file:///C:/Users/samue/Downloads/instagram-svgrepo-com.svg" alt="instagram"></a>
-        <a href="https://www.facebook.com/" target="_blank"><img src="file:///C:/Users/samue/Downloads/facebook-svgrepo-com.svg" alt="facebook"></a>
-        <a href="https://x.com/?logout=1722093455397" target="_blank"><img src="file:///C:/Users/samue/Downloads/twitter-svgrepo-com%20(1).svg" alt="x"></a>
-    </div>
-</footer>
-
 <body>
-    
+    <header>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/img/logo.png" alt="Logo de la tienda"></a>
+        </div>
+        <div class="barra">
+            <nav>
+                <ul>
+                    <li class="navegar-1"><a href="#">Inicio</a></li>
+                    <li class="navegar-2"><a href="./pages/guitarras.html">Guitarras</a></li>
+                    <li class="navegar-3"><a href="./pages/accsesorios.html">Accsesorios</a></li>
+                    <li class="navegar-4"><a href="./pages/historia.html">Historia</a></li>
+                    <li class="navegar-5"><a href="./pages/visitanos.html">Visitanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="titulo">
+            <img src="./assets/img/guitar-acustic.svg" alt="guitarra_acustica">
+            <h1><span>G</span>uitar<span>S</span>tar</h1>
+            <img src="./assets/img/guitar-electric.svg" alt="guitarra_electrica">
+        </div>
+        <p class="frase">envios a cualquier parte del mundo</p>
+        <div class="fotos-guitarras">
+            <img src="./assets/img/gibson-lespaul-black.jpg" class="guitarra1" alt="Guitarra Gibson Les Paul">
+            <img src="./assets/img/stratocaster.webp" class="guitarra2" alt="Guitarra Fender Stratocaster">
+            <img src="./assets/img/ibanez.webp" class="guitarra3" alt="Guitarra Ibanez Stevie Vai">
+        </div>
+
+        <h2 class="destacados">productos destacados</h2>
+        <section class="contenedor-cards">
+            <article class="card">
+                <div class="card-img">
+                    <img src="./assets/img/epiphone-les-paul-custom-jared-james-gold-glory.jpg" alt="epiphone-les-paul-custom-jared-james-gold-glory">
+                </div>
+                <div class="card-info">
+                    <h3>EPIPHONE LES PAUL CUSTOM JARED JAMES GOLD GLORY</h3>
+                    <ul>
+                        <li class="entrega">Entregas en 24/48 horas</li>
+                        <li>679,00 €</li>
+                    </ul>
+                    <a href="#"><button>comprar</button></a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img">
+                    <img src="./assets/img/fender-american-performer-strato-hb-rw.jpg" alt="fender-american-performer-strato-hb-rw">
+                </div>
+                <div class="card-info">
+                    <h3>FENDER AMERICAN PERFORMER STRATO HB RW</h3>
+                    <ul>
+                        <li class="entrega">Entregas en 24/48 horas</li>
+                        <li>1.360,00 €</li>
+                    </ul>
+                    <a href="#"><button>comprar</button></a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img">
+                    <img src="./assets/img/epiphone-sg-standard-ebony.jpg" alt="epiphone-sg-standard-ebony">
+                </div>
+                <div class="card-info">
+                    <h3>EPIPHONE SG STANDARD EBONY</h3>
+                    <ul>
+                        <li class="entrega">Entregas en 24/48 horas</li>
+                        <li>499,00 €</li>
+                    </ul>
+                    <a href="#"><button>comprar</button></a>
+                </div>
+            </article>
+        </section>
+        <section class="contenedor-cards">
+            <article class="card">
+                <div class="card-img">
+                    <img src="./assets/img/gibson-j-45-studio-rosewood-antique-natural.jpg" alt="gibson-j-45-studio-rosewood-antique-natural">
+                </div>
+                <div class="card-info">
+                    <h3>GIBSON J-45 STUDIO ROSEWOOD ANTIQUE NATURAL</h3>
+                    <ul>
+                        <li class="entrega">Entregas en 24/48 horas</li>
+                        <li>2.090,00 €</li>
+                    </ul>
+                    <a href="#"><button>comprar</button></a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img">
+                    <img src="./assets/img/squier-classic-vibe-70-strato-natural-il.jpg" alt="squier-classic-vibe-70-strato-natural-il">
+                </div>
+                <div class="card-info">
+                    <h3>SQUIER CLASSIC VIBE 70 STRATO NATURAL IL</h3>
+                    <ul>
+                        <li class="entrega">Entregas en 24/48 horas</li>
+                        <li>389,00 €</li>
+                    </ul>
+                    <a href="#"><button>comprar</button></a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img">
+                    <img src="./assets/img/yamaha-revstar-element-rse20-vw.jpg" alt="yamaha-revstar-element-rse20-vw">
+                </div>
+                <div class="card-info">
+                    <h3>YAMAHA REVSTAR ELEMENT RSE20 VW</h3>
+                    <ul>
+                        <li class="entrega">Entregas en 24/48 horas</li>
+                        <li>498,00 €</li>
+                    </ul>
+                    <a href="#"><button>comprar</button></a>
+                </div>
+            </article>
+        </section>
+        <section class="quienes-somos">
+            <img src="./assets/img/les-paul.jpg" alt="gibson les paul">
+            <article>
+                <h3>¿Quienes somos?</h3>
+                <p>Guitar Star nace en el año 1991 y se convierte rápidamente en un referente para los guitarristas y bajistas de España ya que no existían demasiadas tiendas especializadas en guitarras y bajos.</p>
+                <p>En nuestra tienda, ofrecemos una amplia selección de instrumentos musicales de alta calidad. Contamos con una cabina insonorizada y un taller de reparación dirigido por un técnico-luthier. Nuestro equipo está formado por músicos activos que entienden las necesidades de nuestros clientes. Especializados en guitarras eléctricas, acústicas, clásicas, flamencas, ukeleles, bajos, amplificadores, pedales y accesorios.</p>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <div>
+            <img src="./assets/img/logo.png" alt="Logo de la tienda">
+        </div>
+        <div class="barrafooter">
+            <nav>
+                <ul>
+                    <li class="navegar-1"><a href="#">Inicio</a></li>
+                    <li class="navegar-2"><a href="./pages/guitarras.html">Guitarras</a></li>
+                    <li class="navegar-3"><a href="./pages/accsesorios.html">Accsesorios</a></li>
+                    <li class="navegar-4"><a href="./pages/historia.html">Historia</a></li>
+                    <li class="navegar-5"><a href="./pages/visitanos.html">Visitanos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logoRedes">
+            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/img/instagram.svg" alt="instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./assets/img/facebook.svg" alt="facebook"></a>
+            <a href="https://x.com/?logout=1722093455397" target="_blank"><img src="./assets/img/twitter.svg" alt="x"></a>
+        </div>
+    </footer>
 </body>
 </html>
